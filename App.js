@@ -112,7 +112,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }}/>
-        <Stack.Screen name="City" component={CityScreen} />
+        <Stack.Screen name="City" component={CityScreen} options={({ route }) => ({ title: route.params.city })}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

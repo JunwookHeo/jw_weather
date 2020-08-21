@@ -59,9 +59,10 @@ export default function App({navigation}) {
       )
   }, []);
 
-  function onPress(name)
+  function onPress(name, params)
   {
-    navigation.navigate(name)
+    console.log(params)
+    navigation.navigate(name, params)
   }
 
   return (

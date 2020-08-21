@@ -1,14 +1,16 @@
 import * as React from "react";
+import { useState, useEffect } from 'react';
 import { View, Text, Button,StyleSheet } from "react-native";
 
-export default function CityScreen({ navigation }) {
+import { WebView } from 'react-native-webview';
+
+export default function CityScreen({ route, navigation }) {
+  const city = route.params.city
+
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Details Screen</Text>
-      <Button
-        title="Go to City... again"
-        onPress={() => navigation.navigate('City')}
-      />
-    </View>
+    <WebView
+      source={{ uri: `https://www.bing.com/search?q=${city}` }}
+      style={{ marginTop: 10 }}
+    />
   );
 }
