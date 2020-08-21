@@ -54,11 +54,10 @@ const styles = StyleSheet.create({
   bottom: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'flex-start'
+    justifyContent: 'center'
   },
   weather: {
-    fontSize: 32,
-    // marginBottom:10,
+    fontSize: 28,
     fontWeight: '600'
   },
 });

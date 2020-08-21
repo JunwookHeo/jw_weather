@@ -1,11 +1,18 @@
 import * as React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 
-export default function CityView({city}) {
+export default function CityView(props) {
+  const city = props.city
+  console.log('city view', props)
   return (
     <View style={styles.container}>
-      <Text style={styles.city}>{city}</Text>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => props.onPress('City')}
+      >
+        <Text style={styles.city}>{city}</Text>
+      </TouchableOpacity>
     </View>
   )
 }
