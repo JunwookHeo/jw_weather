@@ -26,14 +26,15 @@ const weather_group = {
   }
 }
 
-export default function WeatherView({ weather }) {
+export default function WeatherView(props) {
+  const weather = props.weather;
   const id = weather[0].id;
   const wg = id === 800 ? weather_group[0] : weather_group[parseInt(id / 100)];
 
   return (
     <View style={styles.container}>
       <View style={styles.top}>
-        <MaterialCommunityIcons size={150} name={wg.icon} />
+        <MaterialCommunityIcons size={150} name={wg.icon} onPress={() => props.onPress()}/>
       </View>
       <View style={styles.bottom}>
         <Text style={styles.weather}>{weather[0].description.toUpperCase()}</Text>
