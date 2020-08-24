@@ -1,13 +1,14 @@
 import * as React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 
-export default function TempView({temp}) {
+export default function TempView(props) {
+  const temp = props.temp
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={() => props.onPress('Temperature', temp)} >
       <Text style={styles.title}>Temperature</Text>
       <Text style={styles.temp}>{Math.ceil(temp.temp - 273.15)}℃</Text>
-    </View>
+    </TouchableOpacity>
   )
 }
 

@@ -6,14 +6,9 @@ export default function CityView(props) {
   const city = props.city
   console.log('city view', props)
   return (
-    <View style={styles.container}>
-      <TouchableOpacity
-        // style={styles.button}
-        onPress={() => props.onPress('City', {city})}
-      >
-        <Text style={styles.city}>{city}</Text>
-      </TouchableOpacity>
-    </View>
+    <TouchableOpacity style={styles.container} onPress={() => props.onPress('City', { city })} >
+      <Text style={styles.city}>{city}</Text>
+    </TouchableOpacity>
   )
 }
 
