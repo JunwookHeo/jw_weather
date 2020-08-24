@@ -1,4 +1,4 @@
-# My Universal React Project
+# Weather Application with React-Native
 
 <p>
   <!-- iOS -->
