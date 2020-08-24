@@ -26,8 +26,9 @@
   - Web: Any web browser
 
 ## Home Screen
+Flex is used to implement the HomeScreen which has 4 areas showing city, weather, wind and temperature information. 
 <img alt="Home Screen" longdesc="Home Screen as a main screen" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/HomeScreen.png" />
-  
+
 ## City Screen
 <img alt="City Screen" longdesc="City screen with WebView" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/CityScreen.png" />
 
