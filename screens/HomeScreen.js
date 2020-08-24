@@ -76,7 +76,7 @@ export default function App({navigation}) {
       </View>
       <View style={styles.footer}>
         <TempView temp={weather.main} onPress={onPress}></TempView>
-        <WindView wind={weather.wind}></WindView>
+        <WindView wind={weather.wind} onPress={onPress}></WindView>
       </View>
     </LinearGradient>
   );

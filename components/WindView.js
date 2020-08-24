@@ -1,20 +1,21 @@
 import * as React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 
-export default function WindView({wind}) {
+export default function WindView(props) {
+  const wind = props.wind
+
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={() => props.onPress('Wind', { wind })} >
       <Text style={styles.title}>Wind Speed</Text>
-      <Text style={styles.wind}>{wind.speed}m/s</Text>
-    </View>
+      <Text style={styles.wind} >{wind.speed}m/s</Text>
+    </TouchableOpacity>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // alignContent:'center', 
     alignItems: 'center',
     justifyContent: 'center'
 
