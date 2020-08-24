@@ -30,12 +30,15 @@ Flex is used to implement the HomeScreen which has 4 areas showing city, weather
 <img alt="Home Screen" longdesc="Home Screen as a main screen" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/HomeScreen.png" />
 
 ## City Screen
+This ui utilized the WebView component to display the searching result of a city name from the HomeScreen.
 <img alt="City Screen" longdesc="City screen with WebView" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/CityScreen.png" />
 
 ## Temperature Screen
+Temperature shows min, max, feel like and current temperatures with chart components.
 <img alt="Temperature Screen" longdesc="Temperature Screen with Chart" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/TempScreen.png" />
 
 ## Wind Screen
+The WindScreen shows a degree of wind direction rotating an arrow image.
 <img alt="Wind Screen" longdesc="Wind Screen with image rotation" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/WindScreen.png" />
 
 ## Publishing
