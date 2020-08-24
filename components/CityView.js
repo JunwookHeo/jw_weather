@@ -8,7 +8,7 @@ export default function CityView(props) {
   return (
     <View style={styles.container}>
       <TouchableOpacity
-        style={styles.button}
+        // style={styles.button}
         onPress={() => props.onPress('City', {city})}
       >
         <Text style={styles.city}>{city}</Text>
