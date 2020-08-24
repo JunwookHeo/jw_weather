@@ -8,6 +8,7 @@ import WindView from '../components/WindView';
 import TempView from '../components/TempView';
 import WeatherView from '../components/WeatherView';
 import LoadingView from '../components/LoadingView';
+import ErrorView from '../components/ErrorView';
 
 const API_KEY = '894c0c1d03546d1843b5efd334d6e479';
 
@@ -64,7 +65,7 @@ export default function App({navigation}) {
   }
 
   return (
-    error ? <Text>Error</Text>:
+  error ? <ErrorView title={error} onPress={reloadWeather}></ErrorView>:
     loading ? <LoadingView title='Getting weather data!'></LoadingView> : 
     <LinearGradient colors={['#2980B9', '#6DD5FA']} style={styles.container}>
       <View style={styles.title}>

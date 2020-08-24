@@ -6,8 +6,8 @@ export default function LoadingView(props) {
   console.log('Loading view')
   return (
     <LinearGradient colors={['#2980B9', '#6DD5FA']} style={styles.container}>
-       <ActivityIndicator animating='true' size='large' color='#ffff00'></ActivityIndicator>
-  <Text style={styles.loading}>{props.title}</Text>
+        <ActivityIndicator animating='true' size='large' color='#ffff00'></ActivityIndicator>
+        <Text style={styles.loading}>{props.title}</Text>
     </LinearGradient>
   )
 }
