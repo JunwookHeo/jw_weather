@@ -26,8 +26,16 @@
   - Web: Any web browser
 
 ## Home Screen
-<img alt="Home Screen" longdesc="Home Screen(Main Screen)" src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/HomeScreen.png" />
+<img alt="Home Screen" longdesc="Home Screen as a main screen" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/HomeScreen.png" />
   
+## City Screen
+<img alt="City Screen" longdesc="City screen with WebView" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/CityScreen.png" />
+
+## Temperature Screen
+<img alt="Temperature Screen" longdesc="Temperature Screen with Chart" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/TempScreen.png" />
+
+## Wind Screen
+<img alt="Wind Screen" longdesc="Wind Screen with image rotation" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/WindScreen.png" />
 
 ## Publishing
 
