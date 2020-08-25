@@ -45,10 +45,9 @@ The WindScreen shows a degree of wind direction rotating an arrow image.
 
 <img alt="Wind Screen" longdesc="Wind Screen with image rotation" width=400 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/WindScreen.png" />
 
-## Publishing
+## Run
 
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.io/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.io/distribution/publishing-websites/).
+<img alt="QR Code" longdesc="QR Code for jw_weather" width=300 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/jw_weather_qr.png" />
 
 ## 📝 Notes
 
