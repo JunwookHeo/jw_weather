@@ -49,8 +49,6 @@ The WindScreen shows a degree of wind direction rotating an arrow image.
 
 <img alt="QR Code" longdesc="QR Code for jw_weather" width=300 src="https://github.com/JunwookHeo/jw_weather/blob/master/Doc/jw_weather_qr.png" />
 
-## 📝 Notes
+## References
 
-- Learn more about [Universal React](https://docs.expo.io/).
-- See what API and components are [available in the React runtimes](https://docs.expo.io/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.io/guides/).
+- https://steemit.com/kr/@anpigon/react-native-5-4-1543113530194
